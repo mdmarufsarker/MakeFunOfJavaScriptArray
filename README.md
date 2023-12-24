@@ -95,7 +95,7 @@ let crushMemory = [
 
 console.log(
   crushMemory[0][0] +
-    " loves " +
+    " loves " + crushMemory[3][0] +
     " and her favorite color is " +
     crushMemory[1][0] +
     ". Her birthday is " +
@@ -105,7 +105,7 @@ console.log(
 // sadia loves pizza and her favorite color is red. Her birthday is 1st January.
 console.log(
   crushMemory[0][1] +
-    " loves " +
+    " loves " + crushMemory[3][1] +
     " and her favorite color is " +
     crushMemory[1][1] +
     ". Her birthday is " +
@@ -115,7 +115,7 @@ console.log(
 // sumaiya loves burger and her favorite color is blue. Her birthday is 2nd February.
 console.log(
   crushMemory[0][2] +
-    " loves " +
+    " loves " + crushMemory[3][2] +
     " and her favorite color is " +
     crushMemory[1][2] +
     ". Her birthday is " +
