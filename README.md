@@ -131,6 +131,15 @@ If you come up to this point than congratulations 🎉. You have learned how to 
 
 We can do the operations of the array very easily by the number of methods that we get in the JavaScript array that the array gives us. The operations here are delete from the beginning, delete from the end, add to the beginning, add to the end, remove a specific element from the array, etc.
 
+## Table Of Content
+
+- [Push](###Push)
+- [Pop](###Pop)
+- [Unshift](###Unshift)
+- [Shift](###shift)
+- [Slice](###Slice)
+- [ForEach](###ForEach)
+
 ### Push
 
 Push will add the element to the end of our array. The push method gives us an array.
@@ -201,4 +210,64 @@ console.log(names); // "John", "Ann", "Rakul"
 names.shift();
 
 console.log(names); // "Ann", "Rakul"
+```
+
+### Slice
+
+Slice provides us with arrays. Slice allows us to cut a specific number of elements from an array. The slice gives us two points: one is the start point and the other is the end point. The start point is the index number from which we will start cutting the element and the end point is the number index from which we will end. But in this case the main array is not changed.
+
+</br>
+<img src="./images/slice.png" alt="slice explain image">
+
+</br>
+
+**Example:**
+
+```js
+// Suppose you have an array called names
+const names = ["Rahi", "Maruf", "Alamin", "Naim", "Sagor"];
+
+console.log(names); // "Rahi","Maruf","Alamin","Naim","Sagor"
+
+console.log(names.slice(2, 4)); // "Alamin", "Naim"
+```
+
+After we call array.slice() we have to tell it how many numbers to start at index and then how many numbers to slice up to index. For which I have given array.slArray(2, 4) in the example, it means that it will start traversing from index 2 of the array and traversing till index 4. You can see the output.
+
+**But if we want, after calling array.slice(), if we pass the number of elements required to be cut into the function, then that number of elements will be cut from the array. In that case, the slice method will take as starting point the number we give in that function and will cut the element from the array accordingly. Below is an example:**
+
+```js
+// Suppose you have an array called names
+const names = ["Rahi", "Maruf", "Alamin", "Naim", "Sagor"];
+
+console.log(names); // "Rahi","Maruf","Alamin","Naim","Sagor"
+
+console.log(names.slice(2)); // "Alamin","Naim","Sagor"
+```
+
+</br>
+
+### ForEach
+
+foreach is a function and it receives a callback function. foreach iterates through the array and returns us one element at a time, and in that we get - ( element, index ). Later with the help of these we can perform any operation.
+
+</br>
+<img src="./images/foreach.png" alt="slice explain image">
+
+</br>
+
+**Example:**
+
+```js
+// Suppose you have an array called names
+const names = ["Rahi", "Maruf", "Alamin", "Naim", "Sagor"];
+
+names.forEach((name, index) => console.log(index, name));
+// output
+
+// 0 Rahi
+// 1 Maruf
+// 2 Alamin
+// 3 Naim
+// 4 Sagor
 ```
