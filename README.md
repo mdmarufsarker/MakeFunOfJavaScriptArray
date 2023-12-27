@@ -95,7 +95,8 @@ let crushMemory = [
 
 console.log(
   crushMemory[0][0] +
-    " loves " + crushMemory[3][0] +
+    " loves " +
+    crushMemory[3][0] +
     " and her favorite color is " +
     crushMemory[1][0] +
     ". Her birthday is " +
@@ -105,7 +106,8 @@ console.log(
 // sadia loves pizza and her favorite color is red. Her birthday is 1st January.
 console.log(
   crushMemory[0][1] +
-    " loves " + crushMemory[3][1] +
+    " loves " +
+    crushMemory[3][1] +
     " and her favorite color is " +
     crushMemory[1][1] +
     ". Her birthday is " +
@@ -115,7 +117,8 @@ console.log(
 // sumaiya loves burger and her favorite color is blue. Her birthday is 2nd February.
 console.log(
   crushMemory[0][2] +
-    " loves " + crushMemory[3][2] +
+    " loves " +
+    crushMemory[3][2] +
     " and her favorite color is " +
     crushMemory[1][2] +
     ". Her birthday is " +
@@ -127,18 +130,21 @@ console.log(
 
 If you come up to this point than congratulations 🎉. You have learned how to use array to store multiple values into a single variable. You have also learned how to use 2D array to store multiple values into a single variable in a 2D way. And finally you have learned how to use those data to make information.
 
+## Table Of Content
+
+- [Array](#array)
+  - [Table Of Content](#table-of-content)
+  - [Array Methods](#array-methods)
+    - [Push](#push)
+    - [Pop](#pop)
+    - [Unshift](#unshift)
+    - [shift](#shift)
+    - [Slice](#slice)
+    - [ForEach](#foreach)
+
 ## Array Methods
 
 We can do the operations of the array very easily by the number of methods that we get in the JavaScript array that the array gives us. The operations here are delete from the beginning, delete from the end, add to the beginning, add to the end, remove a specific element from the array, etc.
-
-## Table Of Content
-
-- [Push](###Push)
-- [Pop](###Pop)
-- [Unshift](###Unshift)
-- [Shift](###shift)
-- [Slice](###Slice)
-- [ForEach](###ForEach)
 
 ### Push
 
@@ -216,10 +222,7 @@ console.log(names); // "Ann", "Rakul"
 
 Slice provides us with arrays. Slice allows us to cut a specific number of elements from an array. The slice gives us two points: one is the start point and the other is the end point. The start point is the index number from which we will start cutting the element and the end point is the number index from which we will end. But in this case the main array is not changed.
 
-</br>
-<img src="https://drive.google.com/uc?id=18Eqb3xqaPAjJAia291W952zgE89tMsZP"/>
-
-</br>
+![Slice](https://drive.google.com/uc?id=18Eqb3xqaPAjJAia291W952zgE89tMsZP)
 
 **Example:**
 
@@ -251,10 +254,7 @@ console.log(names.slice(2)); // "Alamin","Naim","Sagor"
 
 foreach is a function and it receives a callback function. foreach iterates through the array and returns us one element at a time, and in that we get - ( element, index ). Later with the help of these we can perform any operation.
 
-</br>
-<img src="https://drive.google.com/uc?id=12Wy65_iOpZndTRUhGHvWTukeCmVp1638"/>
-
-</br>
+![Slice](https://drive.google.com/uc?id=12Wy65_iOpZndTRUhGHvWTukeCmVp1638)
 
 **Example:**
 
