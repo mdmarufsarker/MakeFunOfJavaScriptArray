@@ -217,7 +217,7 @@ console.log(names); // "Ann", "Rakul"
 Slice provides us with arrays. Slice allows us to cut a specific number of elements from an array. The slice gives us two points: one is the start point and the other is the end point. The start point is the index number from which we will start cutting the element and the end point is the number index from which we will end. But in this case the main array is not changed.
 
 </br>
-<img src="./images/slice.png" alt="slice explain image">
+<img src="https://drive.google.com/uc?id=18Eqb3xqaPAjJAia291W952zgE89tMsZP"/>
 
 </br>
 
@@ -252,7 +252,7 @@ console.log(names.slice(2)); // "Alamin","Naim","Sagor"
 foreach is a function and it receives a callback function. foreach iterates through the array and returns us one element at a time, and in that we get - ( element, index ). Later with the help of these we can perform any operation.
 
 </br>
-<img src="./images/foreach.png" alt="slice explain image">
+<img src="https://drive.google.com/uc?id=12Wy65_iOpZndTRUhGHvWTukeCmVp1638"/>
 
 </br>
 
